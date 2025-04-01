@@ -1,0 +1,96 @@
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: rgb(122, 172, 145);
+}
+
+.container-box {
+    max-width: 800px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 3em;
+    background-color: rgb(90, 141, 124);
+    border: 3px solid rgb(111, 111, 156);
+    border-radius: 8px;
+    padding: 2em 1em;
+
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.75em 1.3em;
+    border: 3px solid grey;
+    background-color: rgb(143, 113, 113);
+}
+
+.box-header {
+    font-size: 1.8rem;
+    color:bisque;
+    margin-bottom: 1em;
+}
+
+.boxes button {
+    padding: 0.4em 0.8em;
+    background-color:rgb(89, 180, 180);
+    font-size: 1.2rem;
+    border-radius: 9px;
+}
+
+.change-clr {
+    background-color: cadetblue;
+}
+
+.box-reveal {
+    margin-bottom: 0;
+    flex-direction: column;
+}
+
+.box-reveal .box-content {
+    word-break: break-all;
+    color: azure;
+    font-size: 1.3rem;
+    max-width: 400px;
+    letter-spacing: 2px;
+}
+.box-reveal .btn {
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 1.6em 3.2em;
+    background-color:blanchedalmond;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.hidden-content.reveal-btn {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .container-box {
+        margin-top: 1em;
+        flex-direction: column;
+        max-width: 350px;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 0.5em;
+    }
+
+    .boxes {
+        margin-top: 0;
+        margin-bottom: 1em;
+
+    }
+
+    .container-box:last-child {
+        margin-bottom: 0em;
+    }
+
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="./backetball.css">
+    <title>Basketball</title>
+</head>
+<body>
+    <div class="container-item">
+        <div class="score-item">
+            <h2>Home</h2>
+            <div class="wrapper">
+                <p class="score-itself" id="score-1">0</p>
+            </div>
+            <div class="btn-cont">
+                <button type=submit id="score-btn" onclick="incrementOne()">+1</button>
+                <button type=submit id="score-btn" onclick="incrementTwo()">+2</button>
+                <button type=submit id="score-btn" onclick="incrementThree()">+3</button>
+            </div>
+        </div>
+        <div class="score-item" >
+            <h2>Guest</h2>
+            <div class="wrapper">
+                <p class="score-itself" id="score-2">0</p>
+            </div>
+            <div class="btn-cont">
+                <button type=submit id="score-btn" onclick="incrementOne2()">+1</button>
+                <button type=submit id="score-btn" onclick="incrementTwo2()">+2</button>
+                <button type=submit id="score-btn" onclick="incrementThree2()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="baskjs.js"></script>
+</body>
+</html>

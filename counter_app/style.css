@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.97);
+    background-color: rgb(65, 21, 106);
+    background-image: url("./station.jpg");
+    height: 100vh;
+    background-position: center;
+}
+
+h1 {
+    margin: 0.5em 0;
+    padding: 1em 0;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    padding: 1em 0;
+    margin-bottom: 1em;
+    padding: 1em 2em;
+}
+.container {
+    
+    width: 80%;
+    max-width: 500px;
+    margin: 2em auto;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.4);
+
+}
+
+button {
+    border: none;
+    width: 25%;
+    min-width: 150px;
+    padding: 2em 2.5em;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+
+}
+
+#increment-btn {
+    background-color:rgba(60, 95, 176, 0.95);
+}
+
+#save-btn {
+    background-color: rgb(37, 37, 132);
+}
+
+#save-el {
+    padding: 1em 0;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
