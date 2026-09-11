@@ -1,6 +1,6 @@
 # JavaScript Basics
 
-Small vanilla JS/HTML/CSS practice projects and exercises — no frameworks,
+Small vanilla JS/HTML/CSS practice projects and exercises, no frameworks,
 just fundamentals.
 
 ## Structure
@@ -11,7 +11,7 @@ just fundamentals.
 | `chrome-extension/` | A basic Chrome browser extension |
 | `counter_app/` | A simple counter app |
 | `dom_manipulation/` | DOM manipulation exercises (event delegation, a quote generator, misc.) |
-| `intro to oop/` | OOP fundamentals — arrays, objects, a `time` exercise |
+| `intro to oop/` | OOP fundamentals: arrays, objects, a `time` exercise |
 | `practice-1/`, `practice-2/` | Small coding challenges (rock-paper-scissors, emoji fighter, fruits, etc.) |
 | `practice-3/` | A standalone mini-project with its own README and `package.json` |
 | `stop watch/` | A stopwatch app |
@@ -19,6 +19,6 @@ just fundamentals.
 
 ## Running
 
-Most folders are static HTML/CSS/JS — just open the `.html` file in a browser.
-`counter_app` and `practice-3` have their own `package.json` — run
-`npm install` inside them if they need dependencies.
+Most folders are just static HTML/CSS/JS, so open the `.html` file in a
+browser and you're good. `counter_app` and `practice-3` have their own
+`package.json`, so run `npm install` inside them if they need dependencies.
